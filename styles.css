@@ -134,6 +134,19 @@ nav a:hover { color: var(--ink); }
   font-weight: 700;
 }
 
+
+.card .buy { margin-top: 0.75rem; }
+.buy-link {
+  display: inline-block;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.buy-link:hover { text-decoration: none; filter: brightness(1.05); }
+
 .how { background: #efebe4; }
 .steps {
   margin: 1rem 0 1.25rem;
